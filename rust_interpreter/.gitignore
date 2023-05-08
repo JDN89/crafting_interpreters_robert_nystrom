@@ -1,0 +1,35 @@
+# Rust binary, executables, and more
+target/
+Cargo.lock
+
+# Generated files
+*.rs.bk
+
+# Debugging
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts and other generated files
+Cargo.toml.orig
+Cargo.lock.orig
+*.o
+*.a
+*.d
+*.rlib
+*.rmeta
+*.rmeta.tmp
+*.rmeta.bk
+*.rdata*
+*.exe
+*.exe.*
+*.dll
+*.dll.*
+*.pdb
+*.lib
+*.gcno
+*.gcda
+*.gcov
+
+# Generated documentation
+doc/
